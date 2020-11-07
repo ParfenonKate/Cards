@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="986.0" style="-fx-background-color: DARKGREEN;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="txtCard12" alignment="CENTER" contentDisplay="CENTER" layoutX="835.0" layoutY="32.0" prefHeight="165.0" prefWidth="120.0" style="-fx-border-color: WHITE; -fx-background-color: GREEN;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtCard11" alignment="CENTER" contentDisplay="CENTER" layoutX="561.0" layoutY="34.0" prefHeight="165.0" prefWidth="120.0" style="-fx-border-color: WHITE; -fx-background-color: GREEN;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtCard13" alignment="CENTER" contentDisplay="CENTER" layoutX="423.0" layoutY="34.0" prefHeight="165.0" prefWidth="120.0" style="-fx-border-color: WHITE; -fx-background-color: GREEN;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtCard1" alignment="CENTER" contentDisplay="CENTER" layoutX="698.0" layoutY="32.0" prefHeight="165.0" prefWidth="120.0" style="-fx-border-color: WHITE; -fx-background-color: GREEN;" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="CardDeck" fitHeight="202.0" fitWidth="120.0" layoutX="22.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/card_back.png" />
+         </image>
+      </ImageView>
+    
+      <ImageView fx:id="Case1" fitHeight="172.0" fitWidth="120.0" layoutX="423.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Case2" fitHeight="172.0" fitWidth="120.0" layoutX="561.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Case3" fitHeight="172.0" fitWidth="120.0" layoutX="698.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Case4" fitHeight="172.0" fitWidth="120.0" layoutX="835.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="buffer" fitHeight="202.0" fitWidth="120.0" layoutX="152.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
